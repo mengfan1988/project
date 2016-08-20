@@ -1,0 +1,667 @@
+﻿		/*头部样式开始*/
+		*{/*初始化样式*/
+			margin:0px;
+			font-size:15px;
+			font-family:微软雅黑;
+			text-decoration:none;
+			list-style:none;
+			border:none;
+		}
+		
+		 .wrap{
+			width:1200px;
+		    margin:0px auto;
+		 }
+		 .toolbar{
+			height:40px;
+			background:#f7f7f7;
+		 }
+		 .toolbar a{
+			height:40px;
+			display:block;
+			line-height:40px;
+			margin:0px 5px;
+			text-align:center;
+			
+		 }
+		 .toolbarleft{　　　
+			float:left;
+			margin-left:-35px;
+			margin-top:-15px;
+			
+		 }
+		  .toolbarright{
+			float:right;
+		 }
+		 .toolbarleft li{    
+			float:left;
+			
+		 }
+		 .toolbarright li{
+			float:left;
+		 }
+		.logo{
+			height:80px;
+		}
+		 .logo input{
+			border:1px solid;
+			border-radius:5px;
+			margin-left:20px;
+		 }
+		.logo img{
+			display:block; /*定义为块级元素与input float后同排显示*/
+			float:left;
+		 }
+		 .logo .text1{
+			 width:200px;
+			 height:30px;
+			 border:2px solid #1919B3;
+			 
+		 }
+		 .logo .search{
+			 width:60px;
+			 height:30px;
+			 border:2px solid #1919B3;
+			 color:#1919B3;
+		 }
+		 #bannerlogo{
+			padding-top:10px;
+		 }
+		 form{
+			float:right;
+			margin:22px 0px 0px 10px;
+		 }
+		/*头部样式结束*/
+		/*图片列表样式开始*/
+		 .plist{
+			height:800px;
+		 }
+		 .plist ul li{
+			width:220px;
+			height:350px;
+			float:left;
+			margin:2px;
+			border:1px solid #c0c0c0;
+         }
+		  .plist ul li:hover{     /* 给整个li 加边框*/
+			border:1px solid red;
+		 }
+		 .plist ul li p{
+			margin:2px;
+			color:blue;
+			font-size:16px;
+		 }
+		 #clear{
+			height:50px;
+			clear:both;
+		 }
+		 /*新闻页样式开始*/
+		  .plist1 ul li{
+			width:350px;
+			height:35px;
+			list-style:disc;
+			font-size:20px;
+			clear:both;
+			
+         }
+		 #clear1{
+			height:300px;
+		 }
+		 .plist1 p#news1{
+		   font-size:24px;
+		   text-align:center;
+		 }
+		 .plist1 p#news2{
+		   font-size:18px;
+		   text-indent:2px;
+		   margin:15px;
+		 }
+		  /*新闻页样式结束*/
+		 .buy{  /*在图片框架里靠右下角*/
+			float:right;
+			position:relative;
+			bottom:30px;
+			right:5px;
+			background:rgb(255,237,237);
+			border:1px solid #ccc;
+			border-radius:5px;
+		 }
+		 #descr{
+			font-size:12px;
+		 }
+		 /*图片列表样式结束*/
+		 /*分页列表样式开始*/
+		 .page{
+			width:1200px;
+			height:100px;
+			position:absolute;
+			top:1120px;
+			left:200px;
+			
+		 }
+		 .page2{
+			width:1200px;
+			height:400px;
+			
+		 }
+		 .page li:hover{
+			 background:rgb(38,196,134);
+		 }
+		 .page li{
+			float:left;
+			border:1px solid #b8b8b8;
+			width:60px;
+			height:40px;
+			line-height:40px;
+			text-align:center;
+		 }
+		 .page ul{
+			margin:0px 40px 0px 200px;
+			padding-top:20px;
+		 }
+		 .page2 li{
+			float:left;
+			border:1px solid #b8b8b8;
+			width:60px;
+			height:40px;
+			line-height:40px;
+			text-align:center;
+		 }
+		 .page2 ul{
+			margin:0px 40px 0px 200px;
+			padding-top:120px;
+			padding-left:520px;
+		 }
+		  .page2 li:hover{
+			 background:rgb(38,196,134);
+		 }
+		 /*分页列表样式结束*/
+		 .foot p{
+			text-align:center;
+			font-size:18px;
+			margin:5px;
+			line-height:30px;
+			height:30px;
+		 }
+		 .plist ul li .a1:hover{
+			text-decoration:underline;
+			color:red;
+		 }
+		 .plist{
+			clear:both;
+		 }
+		 .plist ul li p.through{
+			 text-decoration:line-through;
+			 margin:5px;
+			font-weight:normal;
+			color:red;
+			font-size:18px;
+		 }
+		 .plistr{
+			float:right;
+			margin:0px 0px 0px 100px;
+			width:600px;
+			}
+			.imgleft{
+			float:left;
+			margin:20px 0px 0px 20px;
+			width:350px;
+			}
+			.imgleft .imgd{
+			float:left;
+			margin:5px 0px 0px 5px;
+			width:80px;
+			}
+			.plistr dl{
+			
+			margin-right:150px;
+			}
+			.plistr #stock{
+			font-size:20px;
+			color:red;
+			position:relative;
+			bottom:10px;
+			left:10px;
+			}
+			.plistr dl dt{
+			font-size:24px;
+			border-bottom:1px solid #cccccc;
+			padding:0px 0px 10px 0px;
+			font-weight:bold;
+			margin:10px;
+			}
+			.plistr dl dd{
+			font-size:20px;
+			border-bottom:1px dashed #cccccc;
+			padding:0px 0px 5px 0px;
+			height:30px;
+			line-height:30px;
+			margin-bottom:20px;
+			}
+		 .banner{
+		    background:rgb(31,129,176);
+			height:50px;
+			margin-bottom:20px;
+		 }
+		 
+		 .banner ul li{
+			float:left;
+            color:#fff;
+			height:50px;
+			line-height:50px;
+			font-size:25px;
+
+		 }
+		 .banner ul li a{
+			display:block;
+			height:50px;
+			font-size:20px;
+			color:#fff;
+			line-height:50px;
+			text-align:center;
+			margin:0px 50px 10px 50px;
+		 }
+		 .banner1{
+			height:60px;
+		 }
+		 .banner1 ul li{
+			float:left;
+		 }
+		 .banner1 ul li a{
+			display:block;
+			height:40px;
+			font-size:20px;
+			color:rgb(51,51,51);
+			line-height:40px;
+			text-align:center;
+            margin:0px 15px;
+			}
+		  .banner1 ul li p{
+			height:40px;
+			font-size:20px;
+			color:rgb(51,51,51);
+			line-height:40px;
+			text-align:center;
+            margin:0 10px;
+			}
+			.banner1 ul li.naver:hover{
+			background:rgb(227,26,58);
+			}
+			.banner1 ul li.naver{
+			width:90px;
+			}
+			.banner1{
+			height:60px;
+		 }
+		 .banner2 ul li{
+			float:left;
+		 }
+		 .banner2 ul li.naver:hover{
+			background:rgb(227,26,58);
+			}
+		 .banner2 ul li a{
+			display:block;
+			height:40px;
+			font-size:20px;
+			color:rgb(51,51,51);
+			line-height:40px;
+			text-align:center;
+            margin:0px 15px;
+			}
+			.banner2 ul li.naver{
+			width:120px;
+			}
+			.nav1{            /*二级菜单不显示*/
+			display:none;
+			position:absolute;
+			background:#fff;
+			}
+			.naver:hover .nav1{ /*二级菜单显示*/
+			display:block;
+            border:2px solid rgb(227,26,58);
+			}
+			.nav1 li{
+			clear:both;
+            }
+			.naver .nav1 li a{
+			width:56px;
+			display:block;
+			height:30px;
+			line-height:30px;
+			font-size:18px;
+			color:rgb(51,51,51);
+			text-align:center;
+			margin:5px 20px 0px -30px;
+
+			
+			
+			}
+			.banner1 .b1{
+			border-bottom:2px solid #c0c0c0; /* 设置banner1 b1的下边框 */
+			height:40px;
+			margin-bottom:5px;
+			}
+			.logo2{
+			clear:both;
+			height:120px;
+			background-image:url('http://127.0.0.1/project/home/img/bt2.jpg');
+			
+			}
+			.logo3{ /* 设置新闻页 */
+			clear:both;
+			height:120px;
+			background-image:url('http://127.0.0.1/project/home/img/bt3.jpg');
+			}
+			.main{
+			height:600px;
+			background-image:url('http://127.0.0.1/project/home/img/btimg.jpg');
+			
+			
+		 }
+		 .new{
+			height:100px;
+			width:595px;
+			background:rgb(242,242,242);
+			line-height:100px;
+			border:2px solid #f6f6f6;
+		 }
+		 .new h1{
+			font-size:26px;
+			font-weight:normal;
+			float:left;
+			color:#333333;
+			margin:0px 0px 0px 30px;
+		 }
+		 .new a{
+			float:right;
+			margin:0px 20px 0px 0px;
+			text-decoration: underline;
+			color:#9C0;
+		 }
+		.main1{
+			float:left;
+			background:#fff;
+			width:600px;
+			height:500px;
+			margin:50px 0px 0px 40px;
+		}
+		.login input{
+			border: 1px solid #CFCFCF;
+			color: #666;
+			height: 30px;
+			line-height: 30px;
+			width: 238px;
+			border-radius:5px;
+			margin-right:100px;
+			
+		}
+		.login form ul .submit{
+			background:rgb(196,217,152);
+			height:40px;
+			width:114px;
+			color:#4A682D;
+		
+		}
+		.login form ul .reg1{
+			background:rgb(249,206,104);
+			height:40px;
+			width:114px;
+			color:#4A682D;
+			margin:0px 0px 0px 10px;
+		
+		}
+		.login form ul li span{
+			display:block;
+			height:30px;
+			width:80px;
+			float:left;
+			color: #555555;
+			font-size: 16px;
+			text-align: right;
+			line-height:30px;
+		}
+		.login form ul li{
+			margin:20px;
+		}
+		.login form ul{
+			margin-right:80px;
+		}
+		.login input.yan{
+			border: 1px solid #CFCFCF;
+			color: #666;
+			height: 30px;
+			line-height: 30px;
+			width: 130px;
+		}
+		#sub{
+			margin-top:50px;
+		}
+		#image{
+			float:right;
+			position:relative;
+			right:100px;
+			
+		}
+		#a{
+			float:right;
+			position:relative;
+			right:-60px;
+			top:-25px;
+			height:20px;
+			width:170px;
+			
+			
+		}
+		#a1{
+			float:right;
+			position:relative;
+			right:-60px;
+			top:-25px;
+			width:170px;
+			
+		}
+		#a2{
+			float:right;
+			position:relative;
+			right:-60px;
+			top:-25px;
+			width:170px;
+			
+		}
+		#a3{
+			float:right;
+			position:relative;
+			right:-60px;
+			top:-25px;
+			width:170px;
+			
+		}
+		#content{
+			clear:both;
+			height:30px;
+			font-size:26px;
+			background:rgb(247,247,247);
+			padding-top:20px;
+			margin:20px;
+		}
+		/*add_car样式开始*/
+		#deta{
+			margin-bottom:20px;
+			display:block;
+			float:right;
+			width:500px;
+			height:50px;
+			position:absolute;
+			top:275px;
+			right:400px;
+			font-size:20px;
+			background:url('../img/icon1.jpg') no-repeat;
+			background-position:13px 3px;
+			text-align:left;
+			
+		}
+		#deta p{
+		   display:inline;
+		   font-size:16px;
+		}
+		#seecar{
+			margin-top:50px;
+		}
+		/*add_car样式结束*/
+		.main3{
+			width:1200px;
+			height:300px;
+			
+		}
+		.main3 span{
+			font-size:20px;
+			
+		}
+		#information{
+			font-size:20px;
+			margin-top:10px;
+		}
+		#pay{
+			position:absolute;
+			left:60px;
+		}
+		#pay input{
+			border:1px solid #ccc;
+			margin:10px;
+			width:280px;
+			height:40px;
+		}
+		#pay #buttonord{
+			width:120px;
+			position:absolute;
+			left:-8px;
+		}
+		.main3 .tab tr td{
+			border:1px solid #ccc;
+			width:350px;
+			height:20px;
+			text-align:center;
+			}
+		.main3 .tab tr th{
+			border:1px solid #ccc;
+			height:20px;
+			background:#ccc;
+			text-align:center;
+			
+			}
+        .tab{
+			margin-top:25px;
+		   height:200px;
+		  border-collapse:collapse;/* 单线*/
+		 
+		}
+		#orderdiv{
+			width:1200px;
+			height:30px;
+			margin-left:20px;
+			margin-top:10px;
+		}
+		#orderdiv span{
+			
+			margin-left:20px;
+			
+		}
+		#ordertable{
+			width:1200px;
+			height:30px;
+			margin-left:20px;
+		}
+		#ordertable tr{
+			border:1px solid #ccc;
+			height:20px;
+			text-align:center;
+			
+		}
+		#ordertable tr td{
+			border:1px solid #ccc;
+			width:220px;
+			height:20px;
+			text-align:center;
+		}
+		#clearbuy input{
+			position:relative;
+			right:700px;
+			
+		}
+		.buyc{
+		 height:30px;
+		 text-align:left;
+		 line-height:30px;
+		 font-size:35px;
+		 text-indent:15px;
+		 margin:30px;
+		 position:relative;
+		 top:16px;
+		 color:#ccc;
+		 
+		}
+		#float div{
+		float:right;
+		margin:20px 0px 50px 40px;
+		}
+		#float div input{
+		background:#F6C6CB;
+		font-size:18px; /* 设置确认购买按钮*/
+		}
+		#num{
+		border:1px solid #ccc;
+		text-align:center;
+		width:30px;
+		}
+		/*商品评论页面comment样式开始*/
+		#comment #edui1_bottombar span{
+		font-size:16px;
+		}
+		#comment #edui1_bottombar{
+		height:50px;
+		}
+		#comment{
+		height:200px;
+		}
+		#comment form{
+		float:left;
+		width:800px;
+		height:400px;
+		}
+		#comment form span{
+		font-size:26px;
+		display:block;
+		height:60px;
+		}
+		#comment form input{
+		font-size:18px;
+		height:30px;
+		width:110px;
+		margin-top:20px;
+		}
+		#comment form input:hover{
+		background:#76916F;
+		}
+		#comment form p{
+		font-size:18px;
+		}
+		.content div#floorc{
+		height:40px;
+		margin:20px;
+		}
+		.content div#floorc span{
+		height:50px;
+		margin-right:50px;
+		
+		}
+		.content div#floorc span p{
+		height:30px;
+		margin-top:10px;
+		margin-left:10px;
+		
+		}
+		.content div#floorc #contentfloor{
+		position:relative;
+		top:28px;
+		right:480px;
+		}

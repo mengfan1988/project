@@ -1,0 +1,594 @@
+﻿		*{
+			margin:0px;
+			font-size:14px;
+			font-family:微软雅黑;
+			text-decoration:none;
+			list-style:none;
+			border:none;
+		}
+		
+		#imglogo{
+			position:relative;
+			top:4px;
+			left:80px;
+		}
+		#ordertable{
+			width:900px;
+			height:20px;
+			margin-left:5px;
+			margin-top:20px;
+		}
+		#ordertable tr{
+			border:1px solid #ccc;
+			height:20px;
+			text-align:center;
+		}
+		#ordertable tr td{
+			border:1px solid #ccc;
+			width:80px;
+			height:10px;
+			text-align:center;
+		}
+		 .wrap{
+			width:1200px;
+		    margin:0px auto;
+		 }
+		 .toolbar{
+			height:40px;
+			border-bottom:1px solid #9c9c9c;
+		 
+		 }
+		 .toolbarleft{　　　
+			float:left;
+		 }
+		  .toolbarright{
+			float:right;
+		 }
+		 .toolbarleft li{    
+			float:left;
+		 }
+		 .toolbarright li{
+			float:left;
+		 }
+		 .toolbarright li a{
+			font-size:20px;
+			font-family:楷体;
+		 }
+		
+		 .banner{
+		    background:rgb(31,129,176);
+			height:50px;
+			margin-bottom:20px;
+		 }
+		 .buy{  /*在图片框架里靠右下角*/
+			float:right;
+			margin:0px 5px 5px 0px;
+			background:rgb(255,237,237);
+			border:1px solid red;
+		 }
+		 .banner ul li{
+			float:left;
+            color:#fff;
+			height:50px;
+			line-height:50px;
+			font-size:25px;
+
+		 }
+		 .banner ul li a{
+			display:block;
+			height:50px;
+			font-size:20px;
+			color:#fff;
+			line-height:50px;
+			text-align:center;
+			margin:0px 50px 10px 50px;
+		 }
+		 .banner1{
+			height:60px;
+		 }
+		 .banner1 ul li{
+			float:left;
+		 }
+		 .banner1 ul li a{
+			display:block;
+			height:40px;
+			font-size:20px;
+			color:#c0c0c0;
+			line-height:40px;
+			text-align:center;
+            margin:0px 10px;
+			}
+			#sub2{
+			margin-top:10px;/*后台网站配置项*/
+			}
+			#sub2 .submit2{
+			width:150px;
+			margin:5px;
+			}
+			.login textarea{
+			border:1px solid #ccc;
+			width:240px;
+			border-radius:5px;
+			margin-top:10px;
+			height:100px;
+			}
+			.main{
+			height:600px;
+			background-image:url('http://127.0.0.1/project/home/img/btimg.jpg');	
+		 }
+		 /*分页列表样式开始*/
+		 .page{
+			clear:both;
+			width:1200px;
+			height:200px;
+			position:absolute;
+			top:580px;
+			left:300px;
+			
+		 }
+		 .page li{
+			float:left;
+			border:1px solid #b8b8b8;
+			width:55px;
+			height:40px;
+			line-height:40px;
+			text-align:center;
+		 }
+		 .page li:hover{
+			background:rgb(38,164,173);
+		 }
+		 .page ul{
+			margin:0px 40px 0px 200px;
+			padding-top:20px;
+		 }
+		 /*分页列表样式结束*/
+		 .new1{
+			height:100px;
+			width:495px;
+			background:rgb(242,242,242);
+			line-height:100px;
+			border:2px solid #f6f6f6;
+		 
+		 }
+		 .new1 h1{
+			font-size:26px;
+			font-weight:normal;
+			text-align:left;
+			color:#333333;
+			}
+		 .new{
+			height:50px;
+			width:796px;
+			background:rgb(242,242,242);
+			line-height:50px;
+			border:2px solid #f6f6f6;
+		 }
+		 .new h1{
+			font-size:26px;
+			font-weight:normal;
+			text-align:left;
+			color:#333333;
+		 }
+		 .new a{
+			float:right;
+			margin:0px 20px 0px 0px;
+			text-decoration: underline;
+			color:#9C0;
+		 }
+		.main1{
+			float:left;
+			background:#fff;
+			width:500px;
+			height:500px;
+			margin:50px 0px 0px 100px;
+		}
+		.login input{
+			border: 1px solid #CFCFCF;
+			color: #666;
+			border: 1px solid #CFCFCF;
+			height: 30px;
+			line-height: 30px;
+			width: 238px;
+			border-radius:5px;
+			
+		}
+		.login form ul .submit{
+			background:rgb(196,217,152);
+			height:40px;
+			width:114px;
+			color:#4A682D;
+		
+		}
+		#sub{
+			margin-top:30px;
+		}
+		#s{
+			float:right;
+			position:relative;
+			margin-right:350px;
+			padding-top:6px;
+			height:20px;
+			width:170px;
+			bottom:32px;
+			left:132px;
+		}
+		/*addadmin js控件样式*/
+		#s1{
+			float:right;
+			position:relative;
+			margin-right:350px;
+			padding-top:6px;
+			height:20px;
+			width:170px;
+			bottom:32px;
+			left:132px;
+		}
+		#s2{
+			float:right;
+			position:relative;
+			margin-right:350px;
+			padding-top:6px;
+			height:20px;
+			width:170px;
+			bottom:32px;
+			left:132px;
+		}
+		#s3{
+			float:right;
+			position:relative;
+			margin-right:350px;
+			padding-top:6px;
+			height:20px;
+			width:170px;
+			bottom:32px;
+			left:132px;
+		}
+		#s4{
+			float:right;
+			position:relative;
+			margin-right:350px;
+			padding-top:6px;
+			height:20px;
+			width:170px;
+			bottom:32px;
+			left:132px;
+		}
+		/*addadmin js控件样式*/
+		.login form ul #sub .submit:hover{
+			background:#ccc;
+		}
+		.login form ul .reg1{
+			background:rgb(249,206,104);
+			height:40px;
+			width:114px;
+			color:#4A682D;
+			margin:0px 0px 0px 90px;
+		
+		}
+		#orderdiv{
+			width:1200px;
+			height:30px;
+			margin-left:20px;
+			margin-top:10px;
+		}
+		#orderdiv span{
+			margin:5px;	
+			font-size:16px;
+		}
+		.login form ul li span{
+			display:block;
+			height:30px;
+			width:80px;
+			float:left;
+			color: #555555;
+			font-size: 16px;
+			text-align: right;
+			line-height:30px;
+		}
+		.logingoods form ul .aaa{
+			display:block;
+			float:left;
+			font-size:16px;
+		}
+		.logingoods form ul .b{
+			width:270px;
+			text-align:right;
+			
+		}
+		.login form ul li{
+			margin:20px;
+		}
+		/*添加商品样式开始*/
+		.logingoods form ul li{
+			margin:8px;
+		}
+		.logingoods form ul .submit{
+			width:50px;
+			height:30px;
+			font-size:15px;
+			border-radius:5px;
+		}
+		.logingoods form ul li .aa{
+			border:1px solid #ccc;
+			border-radius:5px;
+			width:200px;
+			
+		}
+		.circle{
+			color:red;
+			font-size:25px;
+		}
+		.circle1{
+			color:purple;
+			font-size:25px;
+		}
+		.circle2{
+			color:pink;
+			font-size:25px;
+		}
+		#circle{
+			width:200px;
+			
+		}
+		.logingoods form ul .div{
+			display:inline;
+			height:20px;
+			position:relative;
+			left:25px;
+		}
+		.div1{
+			position:relative;
+			left:25px;
+		}
+		/*添加商品样式结束*/
+		#imgs{
+			border:1px solid #ccc;
+			margin:5px;
+			border-radius:5px;
+		}
+		#make{
+			background:rgb(221,221,221);
+			width:80px;
+			height:20px;
+			border:1px solid #ccc;
+			color:black;
+			display:block;
+			float:right;
+			line-height:20px;
+			text-align:center;
+		}
+		.bannerleft .bannerfirst{
+			border-top:1px solid #ccc;
+			width:200px;
+			height:30px;
+			margin:10px;
+			font-size:20px;
+			line-height:30px;
+			text-align:center;
+			position:relative;
+			left:-40px;
+			background:rgb(50,122,183);
+		}
+		.bannerleft{
+			border:1px solid #ccc;
+			width:200px;
+			margin-top:20px;
+			position:absolute;
+			left:80px;
+		}
+		.bannerleft .bannerfirst1{
+			border-top:1px solid #ccc;
+			width:200px;
+			height:30px;
+			margin:10px;
+			font-size:15px;
+			line-height:30px;
+			text-align:center;
+			position:relative;
+			left:-40px;
+			
+		}
+		.classify{
+			width:550px;
+			height:300px;
+			border:1px solid #ccc;
+			position:absolute;
+			top:180px;
+			left:380px;
+			
+		}
+		.classifytitle{
+			height:50px;
+			border:1px solid #ccc;
+			line-height:50px;
+			background:rgb(242,242,242);
+		}
+		.classifytitle h1{
+			font-size:20px;
+			font-weight:normal;
+		}
+		.classify input{
+			border:1px solid #ccc;
+			
+			
+		}
+		.table1 tr td .cnameinput{
+			border:1px solid #ccc;
+			width:150px;
+			
+		}
+		.table1 tr .formtd{
+			text-align:left;
+		}
+		.classify .subm{
+			height:30px;
+			background:rgb(50,122,183);
+		}
+		.subm:hover{
+			background:#ccc;
+		}
+
+		.classify .classify2{
+			margin:30px;
+			
+		}
+		.table tr th{
+			border:1px solid #ccc;
+			width:120px;
+			height:30px;
+			line-height:30px;
+			font-size:18px;
+		}
+		.table{
+			float:right;
+			position:absolute;
+			top:180px;
+			left:380px;
+		}
+		.table1 th{
+			height:30px;
+			background:#ccc;
+		}
+		.table1{
+			float:right;
+			position:absolute;
+			top:180px;
+			left:380px;
+			width:849px;
+		}
+		.table1 input{
+			width:80px;
+			text-align:center;
+		}
+		.table1 tr td{
+			border:1px solid #ccc;
+			width:200px;
+			height:30px;
+			line-height:30px;
+			font-size:15px;
+			text-align:center;
+		}
+		.table tr td{
+			border:1px solid #ccc;
+			width:120px;
+			height:30px;
+			line-height:30px;
+			font-size:13px;
+			text-align:center;
+		}
+		/* 查看商品样式开始*/
+		.table2 tr td{
+			border:1px solid #ccc;
+			width:65px;
+			height:60px;
+			line-height:60px;
+			font-size:10px;
+			text-align:center;
+			
+		}
+		.table2 tr th{
+			border:1px solid #ccc;
+			width:65px;
+			height:40px;
+			line-height:30px;
+			font-size:12px;
+			
+		}
+		.table2{
+			float:right;
+			position:absolute;
+			top:180px;
+			left:380px;
+		}
+		.table2 .control1{
+			width:75px;
+		}
+		img.img1{
+			width:40px;
+		}
+		img.img2{
+			width:120px;
+			padding-bottom:5px;
+		}
+		/* 查看商品样式结束*/
+		.add{
+			font-size:18px;
+			width:70px;
+			height:30px;
+			line-height:30px;
+			text-align:center;
+			background:rgb(50,122,183);
+			text-align:left;
+			position:relative;
+			right:350px;
+		}
+		.add:hover{
+			background:#ccc;
+		}
+		.main2{
+			width:800px;
+			float:right;
+			border:1px solid #ccc;
+			position:absolute;
+			left:380px;
+			top:180px;
+		}
+		.bannertop{
+			float:right;
+			position:absolute;
+			top:140px;
+			left:380px;
+			
+		}
+		.bannertop #searchertable input{
+			position:absolute;
+			height:30px;
+			left:700px;
+			top:5px;
+			border:1px solid #ccc;
+		}
+		.bannertop #searchertable input.submita{
+			position:absolute;
+			height:30px;
+			left:813px;
+			top:5px;
+			border:1px solid #ccc;
+		}
+		.bannertop span{
+			font-size:18px;
+		}
+		.bannertop1{
+			float:right;
+			position:absolute;
+			top:140px;
+			left:380px;
+			width:900px;
+		}
+		.bannertop1 span{
+			font-size:18px;
+		}
+		.bannertop1 .orderlist{
+			float:right;
+			font-size:18px;
+			
+		}
+		.marq{
+			display:block;
+			margin-top:80px;
+			font-size:20px;
+			color:#ccc;
+			height:100px;
+			line-height:100px;
+			position:relative;
+			left:60px;
+		}
+		 .foot{
+			clear:both;
+		 }
+		 .foot p{
+			text-align:center;
+			font-size:18px;
+			margin:5px;
+			line-height:30px;
+			height:30px;
+		 }

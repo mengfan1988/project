@@ -1,0 +1,5 @@
+﻿#warning{font-size:46px;text-align:center;margin-top:50px;border:1px solid #ccc;width:650px;height:160px; margin:0 auto;line-height:50px;}
+#warning #span{background:url('http://127.0.0.1/project/home/img/login.png') no-repeat;background-position:0px -3px;display:block;height:70px;}
+#warning #error{background:url('http://127.0.0.1/project/home/img/loginerror.png') no-repeat;background-position:20px -1px;display:block;height:70px;}
+a{text-decoration:none;}
+

@@ -1,0 +1,10 @@
+﻿#warning{font-size:46px;text-align:center;margin-top:50px;border:1px solid #ccc;width:650px;height:160px; margin:0 auto;line-height:50px;}
+#warning #span{background:url('../img/login.png') no-repeat;background-position:0px -3px;display:block;height:70px;}
+#warning #error{background:url('../img/loginerror.png') no-repeat;background-position:20px -1px;display:block;height:70px;}
+a{text-decoration:none;}
+#warning1 span#error1{background:url('http://127.0.0.1/project/home/img/error.jpg') no-repeat;display:block;width:530px;height:400px;margin:0 auto;
+}
+#warning1 #error{background:url('../img/loginerror.png') no-repeat;background-position:3px -1px;display:block;height:70px;}					
+#warning1{font-size:46px;text-align:center;margin-top:50px;border:1px solid #ccc;width:750px;height:160px; margin:0 auto;line-height:50px;}					
+#warning #error1{background:url('../img/loginerror.png') no-repeat;background-position:20px -1px;display:block;height:70px;}					
+
